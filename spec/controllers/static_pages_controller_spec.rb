@@ -8,7 +8,7 @@ RSpec.describe StaticPagesController, type: :controller do
     end
     it 'get status 200' do
       expect(response.status).to eq 200
-   end
+    end
   end
   
   describe 'GET #help' do
